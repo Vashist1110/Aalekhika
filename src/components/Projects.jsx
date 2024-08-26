@@ -1,15 +1,15 @@
 import React from "react";
-import atsocial from "../assets/atsocial.png";
+import besocial from "../assets/besocial.png";
 import Atsocialtech from "../projecttech/Atsocialtech.jsx";
 
 export default function Projects() {
   const projects = [
     {
       id: 1,
-      src: atsocial,
-      demolink: "https://atsocial-ui.vercel.app/",
-      serverlink: "https://github.com/Ananttiwari12/ATsocialserver",
-      uilink: "https://github.com/Ananttiwari12/AtsocialUI",
+      src: besocial,
+      demolink: "https://besocial-qrrq.onrender.com/",
+      // serverlink: "https://github.com/Ananttiwari12/ATsocialserver",
+      // uilink: "https://github.com/Ananttiwari12/AtsocialUI",
     },
   ];
 
@@ -30,7 +30,7 @@ export default function Projects() {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
-          {projects.map(({ id, src, demolink, serverlink, uilink }) => (
+          {projects.map(({ id, src, demolink}) => (
             <div key={id} className="shadow-md shadow-cyan-600 rounded-lg">
               <img
                 src={src}
@@ -40,21 +40,9 @@ export default function Projects() {
               <div className="flex items-center justify-center">
                 <button
                   className="w-1/3 px-5 py-0 m-4 duration-200 hover:scale-105"
-                  onClick={() => navigateToPage(serverlink)}
-                >
-                  server
-                </button>
-                <button
-                  className="w-1/3 px-5 py-0 m-4 duration-200 hover:scale-105"
-                  onClick={() => navigateToPage(uilink)}
-                >
-                  ui
-                </button>
-                <button
-                  className="w-1/3 px-5 py-0 m-4 duration-200 hover:scale-105"
                   onClick={() => navigateToPage(demolink)}
                 >
-                  demo
+                  DEMO
                 </button>
               </div>
             </div>

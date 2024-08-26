@@ -18,14 +18,13 @@ export default function Home() {
         justify-center h-full px-4 md:flex-row"
       >
         <h2 className="text-4xl sm:text-7xl font-bold text-white">
-          I'm a Competitive Programmer
+          I'm a Competitive Programmer and Web Developer :)
         </h2>
 
         <div className=" flex flex-col justify-center mx-auto w-full">
           <div>
             <p className="text-gray-500 py-4 max-w-md">
-              I like doing competitve programming. Currently I'm exploring web
-              development and technologies like React, NextJs, MongoDB..
+              A web developer who loves to code and has a strong hands on DSA and CSE fundamentals.
             </p>
           </div>
 
